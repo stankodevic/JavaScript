@@ -12,3 +12,20 @@ If you give a while loop a condition that is true and you don't build in a way f
 the loop will go on forever and your program will crash.
 Remember to set up the condition you're checking outside the loop—if you do it in the loop,
 it will keep resetting and the loop could go on forever!
+
+DO/WHILE
+
+Sometimes you want to make sure your loop runs at least one time no matter what.
+When this is the case, you want a modified while loop called a do/while loop.
+After that, it's just like a normal while: the loop will continue so long as the condition being evaluated is true.
+SYNTAX:
+do {
+
+    // The thing to do at least once!
+
+} while(  /* some condition */  );
+
+
+
+
+
