@@ -1,0 +1,30 @@
+PART 2 (DECISIONS - IF, IF / ELSE, MODULO - %, SUBSTRINGS, VARIABLES
+
+DECISIONS - IF:
+if( "myName".length >= 7 ) {
+    console.log("You have a long name!");
+} ---> If the answer to the condition is yes, the code inside the curly braces will run.
+
+IF / ELSE:
+if( "myName".length >= 7 ) {
+    console.log("You have a long name!");
+}
+else {
+    console.log("You have a short name!");  
+} --> If the condition is true first code will run. If the condition is false the second code (else) will run.
+
+MODULO (%):
+- If we do 23 % 10, we divide 23 by 10 which equals 2 with 3 left over. So 23 % 10 evaluates to 3.
+
+SUBSTRINGS:
+- Sometimes you don't want to display the entire string, just a part of it
+- "some word".substring(x, y) where X is where you start chopping and Y is where you finish chopping the original string. Y does not appear inside, it stops chopping before it
+- e.g.: "hello". substring(0, 2); --> we select H and slice up to L (without L), so we get H and E. *First letter position is 0!!!*
+- space is numbered as well!
+
+VARIABLES:
+- To do more complex coding, we need a way to 'save' the values from our coding. We do this by defining a variable with a specific, case-sensitive name. Once you create (or declare) a variable as having a particular name, you can then call up that value by typing the variable name.
+- var varName = data;
+- So the variable stores the value of the variable, whether that is a number or a string
+- Change variable values: you call the variable and type in the new data
+e.g: var myAge = "thirty"; myAge = "thirty-one"; --> now the value of var myAge is thirty-one
