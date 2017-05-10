@@ -1,0 +1,59 @@
+FUNCTIONS:
+var divideByThree = function (number) {
+    var val = number / 3;
+    console.log(val);
+divideByThree(6);
+
+1. On line 5, we call the function by name
+2. We tell the computer what the number input is (i.e. 6)
+3. The computer then runs the code inside the function!
+4. The code within {} is the code we want to use again and again - not to write the same code each time
+5. Line 3 declares var called val and line 4 prints it out to the console
+
+FUNCTION takes input, does something with them and produces and output.
+EXAMPLE:
+var sayHello = function(name) {
+    console.log('Hello ' + name);
+};
+-----> First we declare function with var and give it a name sayHello. Then we use word function for computer to understand it. 
+       Then code in parenthesis is called a PARAMETER ---> When we call function we give it it's value
+       Then we write reusable code within {}. Every line within needs to end with ; -> also you need to end function with it!
+       The keyword FUNCTION tells that sayHello is a function and nothing else
+
+RETURN KEYWORD:
+- The RETURN keyword simply gives the programmer back the value that comes out of the function. 
+- So the function runs, and when the return keyword is used, the function will immediately stop running and return the value.
+
+// Parameter is a number, and we do math with that parameter
+var timesTwo = function(number) {
+    return number * 2;
+};
+
+// Call timesTwo here!
+var newNumber = timesTwo(3)
+console.log(newNumber); --> prints our number 6
+
+FUNCTION, RETURN, IF/ELSE
+var quarter = function(number) {
+    return number / 4;
+};
+
+
+if (quarter() % 3 === 0 ) {
+  console.log("The statement is true");
+} else {
+  console.log("The statement is false");
+}
+
+FUNCTIONS WITH TWO PARAMETER:
+var areaBox = function(length, width) {
+    return length * width;
+};
+
+FUNCTIONS RECAP:
+var nameString = function (name) {
+	return "Hi, I am " + name;
+	
+};
+
+console.log(nameString("Stanko")); >>>> Prints out: Hi, I am Stanko
