@@ -1,0 +1,14 @@
+The while loop is ideal when you want to use a loop, but you don't know how many times you'll have to execute that loop.
+
+SYNTAX:
+while(condition){
+    // Do something!
+}
+
+As long as the condition evaluates to true, the loop will continue to run. As soon as it's false, it'll stop. 
+You NEED to have a false condition, otherwise it'll go into infinitive loop which will crash our brower
+
+If you give a while loop a condition that is true and you don't build in a way for that condition to possibly become false,
+the loop will go on forever and your program will crash.
+Remember to set up the condition you're checking outside the loop—if you do it in the loop,
+it will keep resetting and the loop could go on forever!
