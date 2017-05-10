@@ -1,0 +1,61 @@
+for (var i = 1; i < 11; i = i + 1) {
+    /* your code here */;
+}
+CONTROLING WHERE TO START LOOPING
+i = variable (i = 1: tells the computer to start with a value of 1 for i --> we declared that value of variable equals to 1)
+So when the code executes the code block (inside {}) it does by starting off where i=1
+
+CONTROLING WHERE TO END LOOPING
+Second part (i < 11) determines where the loop will stop
+
+CONTROLING WHAT HAPPENS IN BETWEEN
+i = i + 1 --> this means we have increased the variable i by one each loop (time). It's easier to write i++
+RULES TO LEARN:
+i-- >>>  We decrement down by 1 by writing
+We can increment up by any value by writing i +=x >>> e.g. i +=3, counts up by 3s
+We can decrement down by any value by writing i -=x
+
+BE CAREFUL --> if you write a loop that can't properly end, it's called an infinite loop. It will crash your browser!
+
+Note-to-self: variable incriments each time code inside {} runs. And the code runs only if the condition is met. 
+FOR loops only run when the condition is true. 
+
+So the code loops so many times until it meets the END CONDITION
+
+ARRAYS
+- store lists of data
+- can store different data types at the same time
+- are ordered so the position of each piece of data is fixed (Arrays have 0-based indexing, so we start counting the positions from 0.)
+- data must be stored inside [...]
+e.g:
+var names = ["Mao","Gandhi","Mandela"];
+
+var sizes = [4, 6, 3, 2, 1, 9];
+
+var mixed = [34, "candy", "blue", 11];
+
+If we want to print out the fourth el of our array mixed: console.log(mixed[3])
+
+e.g.
+var cities = ["Melbourne", "Ljubljana", "Helsinki", "NYC"];
+
+for (var i = 0; i < cities.length; i++) {
+    console.log("I would like to visit " + cities[i]);
+}
+This will print out four sentences "I would like to visit [city]" until the variable i reaches the END condition (is smaller then length of var cities wich is 4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
