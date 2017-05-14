@@ -28,3 +28,29 @@ VARIABLES:
 - So the variable stores the value of the variable, whether that is a number or a string
 - Change variable values: you call the variable and type in the new data
 e.g: var myAge = "thirty"; myAge = "thirty-one"; --> now the value of var myAge is thirty-one
+
+-----------> isNaN <------------
+
+If you call isNaN on something, it checks to see if that thing is not a number.
+
+isNaN('berry'); // => true
+isNaN(NaN); // => true
+isNaN(undefined); // => true
+isNaN(42);  // => false
+
+Primer uporabe:
+var isEven = function(number) {
+  if (number%2 === 0) {
+      return true;
+  } else if (NaN(number)) //preveri, če je uporabnik vnesel kaj drugega namesto številke
+  
+  {
+      return "Your input isn't a number";
+  
+  }  else {
+      return false;
+  }
+
+};
+
+
