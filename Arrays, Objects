@@ -1,0 +1,51 @@
+TWO-DIMENSTIONAL ARRAY:
+You can even put other arrays inside arrays, by nesting arrays one layer deep, like so:
+var twoDimensional = [[1, 1], [1, 1]]; --> it has two rows and each containst two items.
+
+Jagged arrays: (different number of elements insides)
+Sometimes you want arrays that aren't as nice and even as your 3 x 3 two-dimensional array: you may have three elements in the first row, 
+one element in the second row, and two elements in the third row
+
+---------------OBJECTS--------------
+
+Using objects, we can put our information and the functions that use that information in the same place.
+
+var phonebookEntry = {};
+
+phonebookEntry.name = 'Oxnard Montalvo';
+phonebookEntry.number = '(555) 555-5555';
+phonebookEntry.phone = function() {
+  console.log('Calling ' + this.name + ' at ' + this.number + '...');
+};
+
+phonebookEntry.phone(); -----> PRINTED: Calling Oxnard Montalvo at (555) 555-5555...
+
+We entered THE KEY name which is phonebookEntry, key name value (e.g. Oxnard Montalvo), and the key number value
+
+Objects are just collections of information (keys and values) between curly braces, like this:
+var myObject = {
+    key: value,
+    key: value,
+    key: value
+};
+
+CREATING A NEW OBJECT:
+
+There are two ways of creating a new object:
+
+1. Object literal notation (creating objects with curly braces):
+var myObj = {
+    type: 'fancy',
+    disposition: 'sunny'
+};
+
+var emptyObj = {};
+
+2. Object constructor:
+var myObj = new Object(); --> This tells JS that I want to make a new thing (var) and that I want it to be a NEW OBJECT
+
+Then we add key to our new object:
+myObj["name"] = "Charlie";
+or
+myObj.name = "Charlie";
+
